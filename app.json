@@ -9,21 +9,26 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Kitaroo/KITARO-USERBOT/KITARO-USERBOT",
-  "telegram": "https://t.me/kitarohey",
+  "repository": "https://github.com/kitaroo/KITARO-USERBOT.",
+  "telegram": "https://t.me/Kitarohey",
   "success_url": "https://t.me/hariannsayaa",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan Api Key di web my.telegram.org",
+      "description": "Dapatkan Api Key di web my.telegram.org.",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan Api Hash Di Web my.telegram.org",
+      "description": "Dapatkan Api Hash Di Web my.telegram.org.",
       "required": true
     },
+    "ALIVE_LOGO": {
+      "description": "BUAT ALIVE LOGO MU SENDIRI.",
+      "value": "https://telegra.ph/file/28d9f4c90f60f0b7190d3.jpg",
+      "required": true
+     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @IDnyaKosong di telegram",
+      "description": "Ambil String Session di link https://t.me/githubxsvshacker/602.",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -41,11 +46,8 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001234567890",
-      "required": true
-    },
-    "G_BAN_LOGGER_GROUP": {
-      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001234567890",
+      "description": "Buatlah sebuah grup private/public masukan @MissRose_bot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.",
+      "value": "-Id group",
       "required": true
     },
     "COUNTRY": {
@@ -53,13 +55,8 @@
       "value": "ID",
       "required": true
     },
-    "TZ_NUMBER": {
-      "description": "Change this value in case your country has multiple Time Zones.",
-      "value": "1",
-      "required": false
-    },
     "PM_AUTO_BAN": {
-      "description": "PM Auto-Ban Feature Switch. Also known as the 'bleep blop, this is a bot...' module.",
+      "description": "Ini berguna Untuk Mengaktifkan pesan otomatis di room chat anda.",
       "value": "False",
       "required": true
     },
@@ -84,32 +81,19 @@
       "value": "True",
       "required": true
     },
-    "DEFAULT_BIO": {
-      "description": "Default Bio Mu.",
-      "value": "✨Kitaro-Ubot✨",
-      "required": false
-    },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
+      "value": "KITARO-USERBOT",
       "required": true
-    },
-     "ALIVE_LOGO": {
-      "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/28d9f4c90f60f0b7190d3.jpg",
-      "required": false
-    },
-    "KYY_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .kyyalive (Isi Terserah)",
-      "value": "I'am Using Kitaro-Ubot ✨",
-      "required": false 
     },
     "S_PACK_NAME": {
       "description": "Nama Sticker Pack Mu",
+      "value": "kang",
       "required": false
     },
-    "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
-      "value": "Padang",
+    "G_BAN_LOGGER_GROUP": {
+      "description": "Masuk @spambotVegeta Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @goku_isbot Lalu Ketik /id, Salin dan hapus id dibawah ini lalu tempel.",
+      "value": "-id group",
       "required": false
     },
     "LOGSPAMMER": {
@@ -118,12 +102,11 @@
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "description": "Untuk menampilkam mode tombol .rhelp, Ambil token di @BotFather",
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "Username Bot Kamu Di @BotFather, Tanpa @",
-      "value": "BotFather",
+      "description": "isi username bot mu yang dari @BotFather",
       "required": true
     }
   },
