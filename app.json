@@ -1,7 +1,7 @@
 {
-  "name": "Kyy-Userbot",
-  "description": "KYY-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+  "name": "KITARO-USERBOT",
+  "description": "KITARO USERBORT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/28d9f4c90f60f0b7190d3.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/muhammadrizky16/Kyy-Userbot/Kyy-Userbot",
-  "telegram": "https://t.me/IDnyaKosong",
-  "success_url": "https://t.me/ahhsudahlahhh",
+  "repository": "https://github.com/Kitaroo/KITARO-USERBOT/KITARO-USERBOT",
+  "telegram": "https://t.me/kitarohey",
+  "success_url": "https://t.me/hariannsayaa",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -86,7 +86,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "✨Kyy-Userbot✨",
+      "value": "✨Kitaro-Ubot✨",
       "required": false
     },
     "ALIVE_NAME": {
@@ -95,12 +95,12 @@
     },
      "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+      "value": "https://telegra.ph/file/28d9f4c90f60f0b7190d3.jpg",
       "required": false
     },
     "KYY_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .kyyalive (Isi Terserah)",
-      "value": "I'am Using Kyy-Userbot ✨",
+      "value": "I'am Using Kitaro-Ubot ✨",
       "required": false 
     },
     "S_PACK_NAME": {
@@ -109,7 +109,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Batam",
+      "value": "Padang",
       "required": false
     },
     "LOGSPAMMER": {
