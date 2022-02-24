@@ -1,7 +1,7 @@
 {
   "name": "KITARO U-BOT",
   "description": "KITARO U-BOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+  "logo": "https://telegra.ph/file/28d9f4c90f60f0b7190d3.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -51,12 +51,7 @@
     "COUNTRY": {
       "description": "Set your Country to be used in the .time and .date commands.",
       "value": "ID",
-      "required": true
-    },
-    "TZ_NUMBER": {
-      "description": "Change this value in case your country has multiple Time Zones.",
-      "value": "1",
-      "required": false
+      "required": true 
     },
     "PM_AUTO_BAN": {
       "description": "PM Auto-Ban Feature Switch. Also known as the 'bleep blop, this is a bot...' module.",
@@ -84,32 +79,17 @@
       "value": "True",
       "required": true
     },
-    "DEFAULT_BIO": {
-      "description": "Default Bio Mu.",
-      "value": "✨kitaro-Userbot✨",
-      "required": false
-    },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": true
     },
      "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
-      "required": false
-    },
-    "KYY_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .kyyalive (Isi Terserah)",
-      "value": "I'am Using kitaro-Userbot ✨",
+      "value": "https://telegra.ph/file/28d9f4c90f60f0b7190d3.jpg",
       "required": false 
     },
     "S_PACK_NAME": {
       "description": "Nama Sticker Pack Mu",
-      "required": false
-    },
-    "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
-      "value": "padang",
       "required": false
     },
     "LOGSPAMMER": {
